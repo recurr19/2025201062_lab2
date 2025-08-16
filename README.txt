@@ -33,9 +33,9 @@ Database : Contains 3 interrelated tables:
 
 			AddSubscriberIfNotExists(subName)- Inserted new subscribers only if the name did not already exist. Prevented duplicate entries.
 
-			SendWatchTimeReport() - Iterated through all subscribers. For each subscriber with watch history, it invoked GetWatchHistoryBySubscriber() and displayed their report. 											Subscribers with no history were skipped.
+			SendWatchTimeReport() - Iterated through all subscribers. For each subscriber with watch history, it invoked GetWatchHistoryBySubscriber() and displayed their report. Subscribers with no history 						were skipped.
 
-			WatchTimeByEachSubscriber()- Used a cursor to loop through all subscribers and invoked GetWatchHistoryBySubscriber() for each. Unlike the previous procedure, this one 												displayed results for all subscribers (including those with no history).
+			WatchTimeByEachSubscriber()- Used a cursor to loop through all subscribers and invoked GetWatchHistoryBySubscriber() for each. Unlike the previous procedure, this one displayed results for all 						     subscribers (including those with no history).
 
 
 
@@ -87,4 +87,4 @@ Steps to Execute the Scripts
 
 
 
-Github Repository Link : 
+Github Repository Link : https://github.com/recurr19/2025201062_lab2
